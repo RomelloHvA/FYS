@@ -2,7 +2,7 @@
 
 
 
-## Getting started
+## Getting started hallo team 2 groetjes Romello
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
