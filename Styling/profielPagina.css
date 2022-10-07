@@ -1,0 +1,14 @@
+.mobileContainer{
+
+}
+body {
+    display: flex;
+    max-width: 480px;
+    background-color: white;
+}
+nav{
+    display: flex;
+    background-color: red;
+    min-width: 480px;
+    max-height: 50px;
+}
