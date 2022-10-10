@@ -6,8 +6,80 @@
     <link rel="stylesheet" href="Styling/profielPagina.css">
 </head>
 <body>
-<nav>Backbutton</nav>
+<a href="https://www.corendon.nl/">
+    <img class="headerLogo" src="https://static.corendonresources.com/web-ui-corendon/dist/src/assets/images/corendon-logo.9d2cda78d90b4c7fefce.svg">
+</a>
+<!--Navigatie menu-->
+<ul>
+    <li><a class="navbarStyling">Home</a></li>
+    <li><a class="navbarStyling">Login</a></li>
+    <li><a class="navbarStyling">Matching</a></li>
+    <li><a class="navbarStyling">Reizen</a></li>
+    <li><a class="navbarStyling">Profiel</a></li>
+</ul>
+
+<!--Start van de profielpagina-->
+<div class="profielPaginaLayout">
+    <div class="profielContainer">
+        <div class="profielNaamContainer">
+            <img class="profielFoto" src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg">
+            <div class="profielIntroductie">
+                <h1 class="gebruikersNaam">John Doe</h1>
+                <h3> Nederland</h3>
+                <!--Placeholder foto-->
+                <img class="profielRating" src="data:image/png;base64,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">
+            </div>
+            <!-- Knoppen voor chatten en review       -->
+        <div class="profielButtonsDivision">
+            <button class="editProfileButton">Profiel bewerken</button>
+
+            <button class="chatButton">Message</button>
+            <button class="ratingButton">Review</button>
+        </div>
+
+        </div>
+        <div class="biografie">
+            <h2>Wie ben ik?</h2>
+            <!--Dit is placeholder tekst-->
+            <p class="biografieTekst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet enim ornare, suscipit libero sed, hendrerit diam. Vivamus blandit urna id lorem tincidunt, ac gravida dui hendrerit. Curabitur porta odio at mollis tristique. Duis eu augue a tellus faucibus faucibus. Donec quis imperdiet metus. Morbi varius viverra eros, sodales malesuada leo. Donec luctus tellus ut neque varius interdum. Curabitur placerat lacinia nibh, quis egestas lectus vestibulum ut. Nulla a placerat sapien, id pretium lorem. </p>
+        </div>
+        <div class="interesseSectie">
+            <h2>Interesses</h2>
+            <button class="interesse1">interesse 1</button>
+            <button class="interesse2">interesse 2</button>
+            <button class="interesse3">interesse 3</button>
+            <button class="interesse4">interesse 4</button>
+            <button class="interesse5">interesse 5</button>
 
 
+
+
+        </div>
+    </div>
+    <div class="reviewContainer">
+        <h1>Recensies</h1>
+        <div class="profielNaamContainer">
+            <img class="profielFotoReviewer" src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg">
+            <div class="profielIntroductie">
+                <h1 class="gebruikersNaam">Jane Doe</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet enim ornare, suscipit libero sed, hendrerit diam. Vivamus blandit urna id lorem tincidunt, ac gravida dui hendrerit. Curabitur porta odio at mollis tristique. Duis eu augue a tellus faucibus faucibus.</p>
+            </div>
+        </div>
+        <div class="profielNaamContainer">
+            <img class="profielFotoReviewer" src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg">
+            <div class="profielIntroductie">
+                <h1 class="gebruikersNaam"> John Smit</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet enim ornare, suscipit libero sed, hendrerit diam. Vivamus blandit urna id lorem tincidunt, ac gravida dui hendrerit. Curabitur porta odio at mollis tristique. Duis eu augue a tellus faucibus faucibus.</p>
+            </div>
+        </div>
+        <div class="profielNaamContainer">
+            <img class="profielFotoReviewer" src="https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg">
+            <div class="profielIntroductie">
+                <h1 class="gebruikersNaam"> Bob Jan</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet enim ornare, suscipit libero sed, hendrerit diam. Vivamus blandit urna id lorem tincidunt, ac gravida dui hendrerit. Curabitur porta odio at mollis tristique. Duis eu augue a tellus faucibus faucibus.</p>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

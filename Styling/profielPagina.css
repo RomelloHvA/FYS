@@ -1,14 +1,160 @@
-.mobileContainer{
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.headerLogo {
+    flex: 0 0 auto;
+    height: 38px;
+    margin-right: auto;
+    order: -1;
+    position: relative;
+    width: auto;
+    margin-bottom: 5px;
+    z-index: 5;
+}
+/*Navigatie styling desktop*/
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #d81e05;
+    color: white;
+    align-items: center;
+}
+li {
+    display: inline-block;
+    padding: 5px 10px;
+    align-items: center;
+    border-left: #b81a04 6px;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+.navbarStyling {
+    display: inline-block;
+    padding: 5px 10px;
+    align-items: center;
+    font-family: Uni Sans WFx, sans-serif;
+    cursor: pointer;
+}
+
+/* color change on hover */
+li a:hover {
+    transition-duration: .5s;
+    background-color: brown;
+}
+.profielPaginaLayout {
+    display: flex;
+    flex-direction: row;
+}
+/*De opmaak van het eerste stuk van de profielpagina*/
+.profielContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-top: 20px;
+    border: 1px gray solid;
+}
+
+.profielNaamContainer {
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    max-width: 100%;
+    border-bottom: 1px gray solid;
+    background-color: lightgray;
+}
+.profielFoto {
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+.profielFoto:hover {
+    transform: scale(1.5);
+    transition-duration: .5s;
+    transition-delay: 2s;
+}
+.gebruikersNaam{
+    padding-top: 10px;
+    float: right;
+    margin-top: 0px;
+}
+.profielRating {
+    max-width: 150px;
+    max-height: 40px;
+}
+
+.profielIntroductie {
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+}
+.biografie {
+    min-width: 400px;
+    max-width: 400px;
 
 }
-body {
+.biografieTekst {
     display: flex;
-    max-width: 480px;
-    background-color: white;
+    flex-direction: column;
+    padding-left: 10px;
+    white-space: normal;
 }
-nav{
+.profielButtonsDivision {
     display: flex;
-    background-color: red;
-    min-width: 480px;
+    flex-direction: column;
+}
+.chatButton.ratingButton.editProfileButton {
+    align-content: center;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
     max-height: 50px;
 }
+.chatButton:hover, .ratingButton:hover, .editProfileButton:hover {
+    cursor: not-allowed;
+}
+/*Styling van de verschillende interesses*/
+.interesseSectie{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px  solid;
+    border-color: gray;
+}
+/*Deze kleuren werken niet voor een of andere reden.*/
+.interesse1.interesse2.interesse3.interesse4.interesse5 {
+    align-content: center;
+    background: lawngreen;
+    color: lawngreen; !important;
+    border-radius: 10%;
+    font-size: 1.2em;
+    font-weight: 500;
+    white-space: normal;
+    max-width: 70px;
+}
+/*Review sectie*/
+.reviewContainer {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 1px black solid;
+}
+.profielFotoReviewer {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
