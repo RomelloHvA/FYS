@@ -1,6 +1,11 @@
 # Fasten your seatbelts code team 2 (Production has Stopped.)
 
+## Description
+This is my first project ever. The goal of this project was to become familiar with HTML, CSS and Javascript. The project was done for a Dutch travel company. They wanted a product that would link solo travelers together based on similar hobbies/interests.
 
+
+## Installation
+This project can be hosted upon the localhost.
 
 ## Getting started
 
@@ -42,16 +47,5 @@ Use the built-in continuous integration in GitLab.
 
 ***
 
-## Name
-Fasten Your Seatbelts
 
-## Description
-This is my first project ever. The goal of this project was to become familiar with HTML, CSS and Javascript. The project was done for a Dutch travel company. They wanted a product that would link solo travelers together based on similar hobbies/interests.
-
-
-## Installation
-This project can be hosted upon the localhost.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
 
